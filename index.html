@@ -6,6 +6,75 @@
     <title>entrando a GIT</title>
 </head>
 <body>
+    <h1>capturando datos de un formulario con jquery</h1>
+    <div id="contenedor">
+        <form action="">
+        <table width="20%" border="0" align="center" id="principal">
+            <tr>
+                <td>Nombre:</td>
+                <td><input type="text" name="nombre" id="nombre"></td>
+                
+            </tr>
+            <tr>
+                <td>Apellido:</td>
+                <td><input type="text" id="Apellido"></td>
+                
+            </tr>
+            <tr>
+                <td>Edad:</td>
+                <td><input type="text" id="edad"></td>
+                
+            </tr>
+            <tr>
+                <td>Genero</td>
+                <td> <p><label><input type="radio" name="genero" value="masculino" id="masculino">masculino</label><br>
+                <label><input type="radio" name="genero" value="femenino" id="femenino">femenino</label></p></td>
+                
+            </tr>
+            <tr>
+                <td>Pais</td>
+                <td>
+                    <label for="pais"></label>
+                    <select name="pais" id="pais">
+                        <option value="">España</option>
+                        <option value="">Mexico</option>
+                        <option value="">Colombia</option>
+                        <option value="">Perú</option>
+                        <option value="">Chile</option>
+                        <option value="">Argentina</option>
+                    </select>
+                </td>                
+            </tr>
+            <tr>
+                <td>Aficiones</td>
+                <td>
+                    <table width="200">
+                        <tr>
+                            <td>
+                                <label for=""><input type="checkbox" value="deportes" id="deportes">Deportes</label>
+                            </td>
+                            <td>
+                                <label for=""><input type="checkbox" value="informatica" id="informatica">Informatica</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for=""><input type="checkbox" value="lectura" id="lectura">Lectura</label></td>
+                            <td><label for=""><input type="checkbox" value="cine" id="cine">Cine</label></td>
+                        </tr>
+                        <tr>
+                            <td><label for=""><input type="checkbox" value="bares" id="bares">Bares</label></td>
+                            <td><label for=""><input type="checkbox" value="natuarleza" id="naturaleza">Naturaleza</label></td>
+                        </tr>
+                    </table>                    
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="button" value="Comprobar" id="comprobar"></td>
+            </tr>
+        </table>
+    </form>
+    </div>
+
     
 </body>
 </html>
